@@ -28,6 +28,9 @@ function App() {
 
           <img src={logo} className="App-logo" alt="logo" />
           <Switch>
+            <Route path="/new">
+              <Demo />
+            </Route>
             <Route path="/demo">
               <Demo />
             </Route>
